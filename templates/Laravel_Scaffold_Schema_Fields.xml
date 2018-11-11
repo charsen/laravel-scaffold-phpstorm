@@ -1,0 +1,16 @@
+<templateSet group="Laravel_Scaffold_Schema">
+  <template name="type" value="type: $TYPE$, $END$" description="字段类型" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+      <option name="YAML" value="true" />
+    </context>
+  </template>
+  <template name="desc" value="desc: '$VAR$', $END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+      <option name="YAML" value="true" />
+    </context>
+  </template>
+</templateSet>
