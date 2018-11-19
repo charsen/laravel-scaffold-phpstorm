@@ -1,5 +1,5 @@
 <templateSet group="Laravel-Scaffold-Schema">
-  <template name="a.require" value="require: $VAR$, $END$" description="是否必填" toReformat="false" toShortenFQNames="true">
+  <template name="require" value="require: $VAR$, $END$" description="是否必填" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
@@ -18,7 +18,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="a.type" value="type: $TYPE$, $END$" description="类型" toReformat="false" toShortenFQNames="true">
+  <template name="type" value="type: $TYPE$, $END$" description="类型" toReformat="false" toShortenFQNames="true">
     <variable name="TYPE" expression="enum(&quot;varchar&quot;,&quot;text&quot;,&quot;tinyint&quot;,&quot;int&quot;,&quot;bigint&quot;,&quot;char&quot;,&quot;decimal&quot;,&quot;float&quot;,&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
@@ -37,7 +37,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="a.name" value="$FIELD$_name: $VAR$, $END$" description="名称" toReformat="false" toShortenFQNames="true">
+  <template name="name" value="$FIELD$_name: $VAR$, $END$" description="名称" toReformat="false" toShortenFQNames="true">
     <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -57,7 +57,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="a.desc" value="desc: '$VAR$', $END$" description="描述" toReformat="false" toShortenFQNames="true">
+  <template name="desc" value="desc: '$VAR$', $END$" description="描述" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
@@ -76,7 +76,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="a.size" value="size: $VAR$, $END$" description="大小" toReformat="false" toShortenFQNames="true">
+  <template name="size" value="size: $VAR$, $END$" description="大小" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;10&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
@@ -95,7 +95,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="a.default" value="default: $VAR$, $END$" description="默认值" toReformat="false" toShortenFQNames="true">
+  <template name="default" value="default: $VAR$, $END$" description="默认值" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
@@ -114,7 +114,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="a.unsigned" value="unsigned: $VAR$, $END$" description="是否无符号" toReformat="false" toShortenFQNames="true">
+  <template name="unsigned" value="unsigned: $VAR$, $END$" description="是否无符号" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
@@ -133,7 +133,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="a.precision" value="precision: $VAR$, $END$" description="精度" toReformat="false" toShortenFQNames="true">
+  <template name="precision" value="precision: $VAR$, $END$" description="精度" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="3" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
