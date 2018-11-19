@@ -1,6 +1,6 @@
-<templateSet group="Laravel-Scaffold-Schema">
+<templateSet group="Laravel-Scaffold-Schema-Attr">
   <template name="require" value="require: $VAR$, $END$" description="是否必填" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="enum(&quot;true&quot;,&quot;false&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="enum(&quot;false&quot;,&quot;true&quot;)" defaultValue="&quot;false&quot;" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
       <option name="ECMAScript6" value="false" />
@@ -19,7 +19,7 @@
     </context>
   </template>
   <template name="type" value="type: $TYPE$, $END$" description="类型" toReformat="false" toShortenFQNames="true">
-    <variable name="TYPE" expression="enum(&quot;varchar&quot;,&quot;text&quot;,&quot;tinyint&quot;,&quot;int&quot;,&quot;bigint&quot;,&quot;char&quot;,&quot;decimal&quot;,&quot;float&quot;,&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="enum(&quot;varchar&quot;,&quot;text&quot;,&quot;tinyint&quot;,&quot;int&quot;,&quot;bigint&quot;,&quot;char&quot;,&quot;decimal&quot;,&quot;float&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
       <option name="ECMAScript6" value="false" />
@@ -37,7 +37,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="name" value="$FIELD$_name: $VAR$, $END$" description="名称" toReformat="false" toShortenFQNames="true">
+  <template name="name" value="name: $VAR$, $END$" description="名称" toReformat="false" toShortenFQNames="true">
     <variable name="FIELD" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>

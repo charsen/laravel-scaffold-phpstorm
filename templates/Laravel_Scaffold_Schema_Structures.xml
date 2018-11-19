@@ -65,7 +65,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="s.dictionary" value="dictionaries:&#10;    $FIELD$:&#10;        $ALIAS1$: { $ID1$, $EN1$, $NAME1$ }&#10;        $ALIAS2$: { $ID2$, $EN2$, $NAME2$ }&#10;$END$" description="初始化字典项，带一个字典" toReformat="false" toShortenFQNames="true">
+  <template name="s.dictionary" value="dictionaries:&#10;    $FIELD$:&#10;        $ALIAS1$: [ $ID1$, $EN1$, $NAME1$ ]&#10;        $ALIAS2$: [ $ID2$, $EN2$, $NAME2$ ]&#10;$END$" description="初始化字典项，带一个字典" toReformat="false" toShortenFQNames="true">
     <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
     <variable name="ALIAS1" expression="" defaultValue="&quot;alias1&quot;" alwaysStopAt="true" />
     <variable name="ID1" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
@@ -92,7 +92,7 @@
       <option name="YAML" value="true" />
     </context>
   </template>
-  <template name="dictionary" value="$FIELD$:&#10;    $ALIAS1$: { $ID1$, $EN1$, $NAME1$ }&#10;    $ALIAS2$: { $ID2$, $EN2$, $NAME2$ }&#10;$END$" description="一个字典配置" toReformat="false" toShortenFQNames="true">
+  <template name="dictionary" value="$FIELD$:&#10;    $ALIAS1$: [ $ID1$, $EN1$, $NAME1$ ]&#10;    $ALIAS2$: [ $ID2$, $EN2$, $NAME2$ ]&#10;$END$" description="一个字典配置" toReformat="false" toShortenFQNames="true">
     <variable name="FIELD" expression="" defaultValue="&quot;field&quot;" alwaysStopAt="true" />
     <variable name="ALIAS1" expression="" defaultValue="&quot;alias1&quot;" alwaysStopAt="true" />
     <variable name="ID1" expression="" defaultValue="&quot;1&quot;" alwaysStopAt="true" />
